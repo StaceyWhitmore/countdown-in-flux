@@ -9,7 +9,7 @@ html, body {
   height: calc(100% - 2.5em);
   margin: 1em;
   border: 0.25em single orange;
-  color: blue;
+  color: darkblue;
   border-radius: 0.5em;
   display: flex;
   justify-content: center;
