@@ -4,6 +4,8 @@ import Countdown from './Countdown' //The View
 
 import countdownActions from './countdownActions' //The action creator f(x)
 
+//import * as serviceWorker from './serviceWorker';
+
 
 const appDispatcher = new CountdownDispatcher()
 const actions = countdownActions(appDispatcher) //use the appDispatcher to generate the action creators
@@ -21,3 +23,6 @@ const render = count => ReactDOM.render(
 store.on("TICK", () => render(store.count))
 store.on("RESET", () => render(store.count))
 render(store.count)
+
+
+//serviceWorker.unregister();
