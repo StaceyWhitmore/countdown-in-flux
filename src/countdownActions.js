@@ -3,13 +3,7 @@
  * Everytime CLICK or RESET is invoked, the dispatchers handleAction() method is
  invoked, which will "dispatch" the action object.
 */
-//import CountdownDispatcher, { count } from './CountdownDispatcher'
-//import CountdownStore from './CountdownStore'
-//import Countdown, { count } from './Countdown'
 
-//import React from 'react'
-
-//    tick(currentCount) {
 const countdownActions = dispatcher =>
   ({
     tick(count) {

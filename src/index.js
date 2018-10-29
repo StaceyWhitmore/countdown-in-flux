@@ -9,10 +9,6 @@ import countdownActions from './countdownActions' //The action creator f(x)
 
 //import * as serviceWorker from './serviceWorker';
 
-
-//const { Component } = React
-//const { Dispatcher } = Flux
-
 const appDispatcher = new CountdownDispatcher()
 const actions = countdownActions(appDispatcher) //use the appDispatcher to generate the action creators
 const store = new CountdownStore(10, appDispatcher)//register the appDispatcher with the store and set count to 10

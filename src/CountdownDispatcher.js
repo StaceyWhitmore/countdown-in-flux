@@ -14,7 +14,7 @@ class CountdownDispatcher extends Dispatcher {
       source: 'VIEW_ACTION',
       action
     })
-  }//close action handler
-}//close <CounddownDispatcher />
+  }
+}
 
 export default CountdownDispatcher
