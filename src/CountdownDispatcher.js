@@ -5,10 +5,9 @@
  action was generated, and then sends it along to the proper store(s) that will
  handle the action.
 */
+import {Dispatcher} from 'flux'
 
-import Dispatcher from 'flux'
-
-class CounddownDispatcher extends Dispatcher {
+class CountdownDispatcher extends Dispatcher {
   handleAction(action) {
     console.log('dispatching action:', action)
     this.dispatch({

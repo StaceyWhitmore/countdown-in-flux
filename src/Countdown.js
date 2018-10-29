@@ -1,4 +1,6 @@
-const Countdown = ({count, tick, reset}) => {
+import React from 'react'
+
+ const Countdown = ({count, tick, reset}) => {
 
   if (count) {
     setTimeout(() => tick(), 1000)
