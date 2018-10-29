@@ -6,6 +6,7 @@ import CountdownStore from './CountdownStore' //The Store (where state resides)
 import Countdown from './Countdown' //The View
 
 import countdownActions from './countdownActions' //The action creator f(x)
+import './style.css'
 
 //import * as serviceWorker from './serviceWorker';
 
